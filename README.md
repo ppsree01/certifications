@@ -1,2 +1,3 @@
-# certifications
+# Certifications
+
 all certification related notes
