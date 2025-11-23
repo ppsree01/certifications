@@ -36,3 +36,37 @@ Antarctic Research Scenario:
 - result of the algorithms is a model that encapsulates calculation derived by the algorithm as a function - 
 y = f(x)
 - inferencing - the output is a predicted value - we refer to y-hat
+
+# Types of Machine Learning model:
+
+- ML
+    - Supervised
+        - Regression
+        - Classification
+            - Binary
+            - Multiclass
+    - Unsupervised
+        - Clustering
+
+- Supervised
+    - ml algorithms where training data includes both feature and label
+
+    - Regression:
+        - were label predicted by model is numeric
+
+    - Classification:
+        - were label represents a categorisation / class
+
+        - Binary Classification:
+            - predicts one of two mutually exclusive outcomes
+
+        - Multiclass:
+            - predicts label to be one of many possible classes
+            - Usually these classes are mutually exclusive, but in some cases, there are algorithms that can be used to train multi-label classification models - more than one valid label for a single observation
+
+- Unsupervised:
+    - training models using data that contains only feature value, no known labels.
+    - used to determine relationships between features of the observation in the training data
+
+    - Clustering:
+        - Clustering algorithms identifies similarities between observations based on their features, and groups them into discrete clusters.
